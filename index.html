@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Motors – Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+            background: #1a1a1a; 
+            color: #f0f0f0;
+            line-height: 1.7;
+        }
+        header {
+            background: linear-gradient(135deg, #c00000, #ff4d4d, #000);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom: 5px solid #ffd700;
+        }
+        header h1 {
+            font-size: 4em;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 3px 3px 0 #000;
+        }
+        header p {
+            font-size: 1.3em;
+            font-style: italic;
+            color: #ffd700;
+        }
+        nav {
+            background: #111;
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 2px solid #c00000;
+        }
+        nav a {
+            color: #ffd700;
+            text-decoration: none;
+            margin: 0 25px;
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 8px 25px;
+            border-radius: 40px;
+            transition: 0.3s;
+            border: 1px solid transparent;
+        }
+        nav a:hover {
+            background: #c00000;
+            color: white;
+            border-color: #ffd700;
+        }
+        .content {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 50px 30px;
+            background: rgba(10,10,10,0.85);
+            box-shadow: 0 0 30px rgba(255,0,0,0.2);
+        }
+        h2 {
+            color: #ff4d4d;
+            font-size: 2.5em;
+            border-left: 8px solid #ffd700;
+            padding-left: 20px;
+            margin: 40px 0 20px;
+            text-transform: uppercase;
+        }
+        h3 {
+            color: #ffd700;
+            font-size: 1.8em;
+            margin: 30px 0 15px;
+        }
+        .image {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .image img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 15px;
+            border: 3px solid #c00000;
+            box-shadow: 0 10px 25px rgba(255,0,0,0.5);
+        }
+        .caption {
+            color: #ccc;
+            margin-top: 8px;
+            font-style: italic;
+        }
+        p, ul {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        ul {
+            margin-left: 40px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .car-types-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        .car-type-card {
+            background: #222;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 2px solid #c00000;
+            transition: transform 0.3s;
+        }
+        .car-type-card:hover {
+           
+            border-color;
+        }
+        .car-type-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .car-type-card h4 {
+            color: #ffd700;
+            font-size: 1.8em;
+            padding: 15px;
+            background: #111;
+        }
+        .car-type-card p {
+            padding: 0 15px 20px;
+            color: #ddd;
+        }
+        .emotion-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .emotion-item {
+            background: #1e1e1e;
+            padding: 25px 15px;
+            text-align: center;
+            border-radius: 50% 50% 15px 15px;
+            border: 2px solid #ffd700;
+            box-shadow: 0 0 15px red;
+        }
+        .emotion-item h4 {
+            color: #ff4d4d;
+            font-size: 2em;
+        }
+        .emotion-item p {
+            text-align: center;
+        }
+        footer {
+            background: #000;
+            color: #ffd700;
+            text-align: center;
+            padding: 30px;
+            font-size: 1.1em;
+            border-top: 5px solid #c00000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Focus Motors</h1>
+        <p>Your Drive, Our Passion – Ahilyanagar, Maharashtra</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="speciality.html">Our Speciality</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="content">
+        <h2>Welcome to Focus Motors</h2>
+        <div class="image">
+            <img src="https://www.llentab.com/wp-content/uploads/CZ0657_Car_Point-01702-800px.jpg" alt="Showroom">
+            <div class="caption">Our state-of-the-art showroom in Ahilyanagar</div>
+        </div>
+        <p>Located in the heart of Ahilyanagar city, <strong>Focus Motors</strong> has been serving car buyers since 2005. We believe a car is not just a vehicle – it’s a companion for life’s journeys. With a wide range of brands and models, we cater to every need and budget. Backed by honest advice, transparent deals, and lifetime relationship, we are the most trusted showroom in southwestern part Maharashtra.</p>
+
+        <h2>Types of Cars We Offer</h2>
+        <p>We stock the latest models from leading manufacturers – Maruti Suzuki, Hyundai, Tata, Mahindra, Honda, Toyota, and more. Our inventory is updated weekly to bring you the best choices.</p>
+        <div class="car-types-grid">
+            <div class="car-type-card">
+                <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Hatchback">
+                <h4>Hatchbacks</h4>
+                <p>Perfect for city drives – compact, fuel-efficient, and easy to park. Top models: Swift, i20, Altroz.</p>
+            </div>
+            <div class="car-type-card">
+                <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sedan">
+                <h4>Sedans</h4>
+                <p>Elegance and comfort for long drives. Spacious interiors and smooth performance. City, Ciaz, Verna.</p>
+            </div>
+            <div class="car-type-card">
+                <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="SUV">
+                <h4>SUVs</h4>
+                <p>Command the road with power and space. Ideal for families and off-road adventures. Creta, Seltos, Scorpio.</p>
+            </div>
+            <div class="car-type-card">
+                <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Electric">
+                <h4>Electric Vehicles</h4>
+                <p>Eco‑friendly, silent, and low maintenance. Be future‑ready with Nexon EV, Kona, Tiago EV.</p>
+            </div>
+            <div class="car-type-card">
+                <img src="https://caragencia.com/uploads/blog/blog_6689b5f4f3d10d2d49a1284892ab3cc6.jpg" alt="Luxury">
+                <h4>Luxury & Premium</h4>
+                <p>Experience the finest craftsmanship. Mercedes, BMW, Audi – available on order.</p>
+            </div>
+            <div class="car-type-card">
+                <img src="https://me.tatamotors.com/sites/middleeast/files/styles/webp/public/post/%28%20Middle%20East%20%29%20Ultra%20T6%2C%20Ultra%20T7%2C%20Intra%20V20%2C%20Xenon%20SC-20241211.jpg.webp?itok=JMDNSq4N" alt="Commercial">
+                <h4>Commercial Vehicles</h4>
+                <p>Reliable vans and pickups for business. Super Carry, Bolero Pickup, Ace.</p>
+            </div>
+        </div>
+
+        <h2>Reasons to Buy a Car</h2>
+        <p>At Focus Motors, we understand that buying a car is an emotional decision. Here’s why your first (or next) car will change your life:</p>
+        <div class="emotion-grid">
+            <div class="emotion-item">
+                <h4>🚗 Freedom</h4>
+                <p>No more waiting for buses or autos. Go anywhere, anytime.</p>
+            </div>
+            <div class="emotion-item">
+                <h4>👨‍👩‍👧 Family Time</h4>
+                <p>Road trips with loved ones create memories that last forever.</p>
+            </div>
+            <div class="emotion-item">
+                <h4>🛡️ Safety</h4>
+                <p>Protect your family with advanced safety features.</p>
+            </div>
+            <div class="emotion-item">
+                <h4>💼 Pride</h4>
+                <p>A symbol of your hard work and achievement.</p>
+            </div>
+            <div class="emotion-item">
+                <h4>⛰️ Adventure</h4>
+                <p>Explore hidden destinations, mountains, and beaches.</p>
+            </div>
+            <div class="emotion-item">
+                <h4>💝 Comfort</h4>
+                <p>Travel in your own space with music and AC.</p>
+            </div>
+        </div>
+        <p>We don’t just sell cars – we help you fulfil dreams. Our team guides you to the perfect match that fits your lifestyle and heart.</p>
+    </div>
+    <footer>
+        <p>Focus Motors | Maliwada, Ahilyanagar – 414001 | ☎ 0241-2323234</p>
+        <p>Shaikh Aman 202501110112.</p>
+    </footer>
+</body>
+</html>
